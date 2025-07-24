@@ -8,3 +8,15 @@ caixaPreta.addEventListener('click', function() {
     displayBranco.style.display = 'none'
   }
 })
+
+const caixaPretaInferior = document.getElementById('barraPretaInferior')
+const displayBrancoInferior = document.getElementById('quadroBranco2')
+caixaPretaInferior.addEventListener('click', function() {
+  if(displayBrancoInferior.style.display === 'none' || displayBrancoInferior.style.display === '') {
+    displayBrancoInferior.style.display = 'block'
+
+  } else {
+    displayBrancoInferior.style.display = 'none'
+
+  }
+})
