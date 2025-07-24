@@ -227,7 +227,7 @@ span {
 }
 
 /* Barras pretas (topo e base) */
-.barraPreta {
+#barraPretaSuperior {
     background-color: black;
     color: white;
     font-weight: bold;
@@ -244,14 +244,14 @@ span {
 }
 
 /* Conteúdo branco no meio */
-.quadroBranco {
+#quadroBranco1 {
     padding: 30px 20px;
     color: black;
     font-size: 26px;
-
+    display: none;
 }
 
-.quadroBranco>p {
+#quadroBranco1>p {
     margin: 15px;
 }
 
@@ -271,18 +271,19 @@ span {
         margin: 0 auto;
     }
 
-    .barraPreta {
+    #barraPretaSuperior {
         font-size: 18px;
         padding: 10px;
         height: auto;
     }
 
-    .quadroBranco {
+    #quadroBranco1 {
+        display: none;
         font-size: 15px;
         padding: 15px;
     }
 
-    .quadroBranco p {
+    #quadroBranco1 p {
         margin: 10px 0;
     }
 
