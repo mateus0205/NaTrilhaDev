@@ -11,7 +11,6 @@ body {
     justify-content: center;
     min-height: 90vh;
     padding-bottom: 30px;
-    /* ✅ espaço branco opcional */
     background-color: black;
     color: white;
 }
@@ -21,13 +20,9 @@ body {
     margin-top: -20px;
     background-color: #C9F31D;
     padding: 40px 20px;
-    /* adiciona espaço interno em vez de altura fixa */
     min-height: 900px;
-    /* opcional: garante um mínimo */
 }
 
-
-/* Logo */
 #naTrilha {
     width: 325px;
     height: 100px;
@@ -82,7 +77,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* ou space-between */
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -98,13 +92,11 @@ span {
     border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
-    /* Adicionado: */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* para centralizar textos */
 }
 
 .cards>.titleCard {
@@ -139,7 +131,6 @@ span {
     flex-shrink: 0; /* evita que ela encolha */
 }
 
-/* === Texto === */
 .textoParte3 {
     max-width: 700px;
     font-size: 22px;
@@ -168,8 +159,6 @@ span {
     font-weight: bold;
     text-decoration: none;
 }
-
-
 
 .footer {
     background-color: black;
@@ -215,7 +204,6 @@ span {
     padding: 60px 0;
 }
 
-/* Bloco inteiro com arredondamento */
 .caixaCompleta {
     width: 1200px;
     background-color: white;
@@ -226,7 +214,6 @@ span {
     /* opcional, para destacar */
 }
 
-/* Barras pretas (topo e base) */
 #barraPretaSuperior {
     background-color: black;
     color: white;
@@ -249,8 +236,6 @@ span {
     font-size: 22px;
 }
 
-
-/* Conteúdo branco no meio */
 #quadroBranco1 {
     padding: 30px 20px;
     color: black;
